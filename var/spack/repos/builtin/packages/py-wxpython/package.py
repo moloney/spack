@@ -25,6 +25,7 @@ class PyWxpython(PythonPackage):
     # Needed for the build.py script
     depends_on("py-setuptools", type="build")
     depends_on("py-pathlib2", type="build")
+    depends_on("pkgconfig", type="build")
 
     # Needed at runtime
     depends_on("py-numpy", type=("build", "run"))
